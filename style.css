@@ -67,7 +67,7 @@ h4{
 .check{
     display: flex;
     padding: 1.5em;
-    text-align: left;
+    text-align: end;   
 }
 .rem{
     flex: 1;
@@ -75,7 +75,8 @@ h4{
 }
 .check a{
     flex: 1;
-    margin-left: 18px;
+    margin: auto;
+    
 }
 button{
     width: 260px;
