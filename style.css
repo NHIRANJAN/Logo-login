@@ -74,7 +74,7 @@ h4{
     margin-left: 2px;
 }
 .check a{
-    flex: 3;
+    flex: 1;
     margin-left: 18px;
 }
 button{
@@ -87,4 +87,7 @@ button{
     /* margin-top: 15px; */
     display: flex;
     margin: auto;
+}
+a{
+    text-decoration: none;
 }
