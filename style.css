@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menulist{
+    display: flex;
+    flex-direction: row;
+  
+}
+body{
+    background-image: url(bg1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.8;    
+
+}
+
+h2{
+    flex: 5;
+    color: rgb(255, 255, 255);
+    margin-left: 5vw;
+}
+.menulist a{
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    padding: 4px;
+    text-decoration: none;
+}
+.main{
+    background-color: rgb(226, 238, 238);
+    /* border: 1px solid rgb(233, 231, 216); */
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+   
+    /* margin-top:180px; */
+    /* padding: auto; */
+    
+}
+h4{
+    margin-top: 20px;
+    text-align: center;
+}
+.input input{
+    margin-top: 30px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 0.5em;
+    width: 250px;
+    margin-left: 18px;
+}
+.check{
+    display: flex;
+    padding: 1em;
+    text-align: left;
+}
+.check input{
+    flex: 1;
+}
+.check a{
+    flex: 3;
+    margin-left: 18px;
+}
+button{
+    width: 260px;
+    margin-left: 18px;
+    height: 30px;
+    border-radius: 8px;
+}
+.reg{
+    /* margin-top: 15px; */
+    display: flex;
+    margin: auto;
+}
